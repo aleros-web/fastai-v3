@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/0fptik4tu8w34ij/export_v2.pkl?dl=1'
-export_file_name = 'export_v2.pkl'
+export_file_url = 'https://www.dropbox.com/s/uc69h9g627fflwu/export%20_v3.pkl?dl=1'
+export_file_name = 'export_v3.pkl'
 
 classes = ['superbike', 'naked', 'offroad', 'cruiser', 'touring']
 path = Path(__file__).parent
